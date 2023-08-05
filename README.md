@@ -25,10 +25,12 @@ source venv/bin/activate
 ```
 pip3 install -r requirements.txt
 ```
-Перед запуском бота необходимо загрузить 2 фотографии в папку media под названием photo_last.jpeg и photo_new.jpeg, где photo_last.jpeg первое селфи, а photo_new.jpeg последнее селфи на теелфоне. Также необходимо создать 3 звуковых файла:
+Перед запуском бота необходимо загрузить 2 фотографии в папку media под названием photo_last.jpeg и photo_new.jpeg, где photo_last.jpeg первое селфи, а photo_new.jpeg последнее селфи на теелфоне.
+Также необходимо создать 3 звуковых файла:
 1. GPT.ogg - рассказ в формате «объясняю своей бабушке», что такое GPT
 2. SQL.ogg - максимально коротко объяснить разницу между SQL и NoSQL
 3. LOVE.ogg - история первой любви (можно выдумать)
+
 Запустить бота:
 ```
 python tgportfoliobot.py
